@@ -1,26 +1,27 @@
 {
-    "name": "pilulka/gls-shipping-api",
-    "description": "GLS Shipping & Tracking API",
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "And",
-            "email": "and.webdev@gmail.com"
-        }
-    ],
-    "minimum-stability": "alpha",
-    "require": {
-	    "php"               : ">=5.4.0",
-	    "symfony/validator" : "~2.3.3",
-		"doctrine/common"   : "~2.4",
-		"kriswallsmith/buzz": "~0.10",
-		"fergusean/nusoap": "~0.9.5",
-        "symfony/dom-crawler": ">=2.7 <4.0",
-        "symfony/css-selector": ">=2.7 <4.0"
-    },
-	"autoload": {
-		"psr-4": {
-			"GLS\\": "src/"
-		}
-	}
+  "name": "pilulka/gls-shipping-api",
+  "description": "GLS Shipping & Tracking API",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "And",
+      "email": "and.webdev@gmail.com"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "php": ">=8.0.0",
+    "symfony/validator": "~6.0.12",
+    "doctrine/common": "~3.4",
+    "doctrine/annotations": "^1.13.3",
+    "kriswallsmith/buzz": "^1.2",
+    "fergusean/nusoap": "~0.9.5",
+    "symfony/dom-crawler": ">=2.7 <4.0",
+    "symfony/css-selector": ">=2.7 <7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GLS\\": "src/"
+    }
+  }
 }
